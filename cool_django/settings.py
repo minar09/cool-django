@@ -76,7 +76,7 @@ WSGI_APPLICATION = 'cool_django.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'cool_django',
         'USER': 'postgres',
         'PASSWORD': 'password',
